@@ -83,7 +83,7 @@ export default () => {
           }}
         >
           <Tab.Screen name="Home" component={IndexScreen} />
-          <Tab.Screen name="Settings" component={SettingsScreen} />
+          <Tab.Screen name="Settings" component={SettingsStackScreen} />
         </Tab.Navigator>
       </NavigationContainer>
     </BlogProvider>
