@@ -4,6 +4,7 @@ import { createAppContainer } from "react-navigation";
 import { createStackNavigator as createStackNavigatorStack } from "react-navigation-stack";
 import IndexScreen from "./src/screens/IndexScreen";
 import ShowScreen from "./src/screens/ShowScreen";
+import CreateScreen from "./src/screens/CreateScreen";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { View, Text, Button } from "react-native";
@@ -15,6 +16,7 @@ const navigator = createStackNavigatorStack(
   {
     Index: IndexScreen,
     Show: ShowScreen,
+    Create: CreateScreen,
   },
   {
     initialRouteName: "Index",
