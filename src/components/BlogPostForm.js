@@ -30,9 +30,7 @@ const BlogPostForm = ({
       <Button
         title="Save"
         onPress={() => {
-          onSubmit(title, content, () => {
-            navigation.navigate("Index");
-          });
+          onSubmit(title, content);
         }}
       />
     </View>
